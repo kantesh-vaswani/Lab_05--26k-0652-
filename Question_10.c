@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int accuracy, confidence;
-    int datasetSize, role, statusFlags;
-    float modelScore;
-    float average;
+    int accuracy, confidence, datasetSize, role, statusFlags;
+    float modelScore, average;
 
     printf("Enter accuracy (0-100): ");
     scanf("%d", &accuracy);
